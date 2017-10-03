@@ -1,0 +1,109 @@
+body{
+  font-family: Helvetica;
+  color: #fff;
+  background-color: #444;
+}
+ul{
+  list-style: none;
+}
+li {
+  display: inline-block;
+  margin-right: 10px;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+section {
+  max-width: 850px;
+}
+div.item-cnt{
+  position: relative;
+  height: 250px;
+  width:  250px;
+  border: 2px solid #fff;
+  border-radius: 15px;
+  margin: 10px;
+  display: inline-block;
+}
+div.item-cnt:hover{
+  background-color: #555;
+}
+div.item-pic-cnt{
+  height: 200px;
+  position: relative;
+}
+img.item-pic{
+  display: block;
+  max-width: 200px;
+  max-height: 200px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;  
+  margin: auto;
+}
+div.item-price-cnt{
+  position: absolute;
+  top: 0;
+  right:  3px;
+}
+div.item-options div{
+  display: inline-block;
+  margin: 10px 0 0 11px;
+  font-size: 22px;
+}
+div.signs{
+  border: 1px solid #fff;
+  border-radius: 15px;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+}
+div.quantity{
+  width: 20px;
+  text-align: center;
+}
+div.signs:hover, div.item-options button:hover, a:hover{
+  background-color: #444;
+  cursor: pointer;
+  color: #29acd1;
+}
+div.item-options div.item-weight-cnt{
+  font-size: 18px;
+}
+div.item-weight-cnt {
+  width: 60px;
+  text-align: right;
+}
+div.item-options button{
+  color: #fff;
+  background-color: inherit;
+  border: 2px solid #fff;
+  border-radius: 3px;
+  font-size: 20px;
+}
+
+aside{
+  position: fixed;
+  background-color: #d67500;
+  right:30px;
+  top:50px;
+  width:  200px;
+  height: 580px;
+  text-align: center;
+}
+h4 {
+  margin: 5px;
+}
+div.bill-cnt{
+  text-align: left;
+  font-family: Courier;
+  font-size: 13px;
+  padding: 3px;
+}
+div.bill-cnt p{
+  margin : 3px;
+}
