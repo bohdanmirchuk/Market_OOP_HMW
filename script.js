@@ -61,8 +61,8 @@ Item.prototype.bill = function(){
     var sum = this.price * weight/1000;
     var billCnt = document.createElement('div');
     billCnt.classList.add("bill-cnt");
-    $('div.bill-cnt:last').html('<p class="item-prop">'+this.name.toUpperCase()+' </p><p class="item-calc">'+weight+' g x '+this.price+' ₴ = '+sum.toFixed(2)+' ₴</p><hr>')
-    $('aside').append(billCnt);
+       $('aside').append(billCnt);
+       $('div.bill-cnt:last').html('<p class="item-prop">'+this.name.toUpperCase()+' </p><p class="item-calc">'+weight+' g x '+this.price+' ₴ = '+sum.toFixed(2)+' ₴</p><hr>')
   console.log(this.name, quantity, weight, this.price*weight/1000);
 }
 }
